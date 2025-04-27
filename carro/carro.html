@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Carros</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <h1>Lista de Carros</h1>
+    <div id="carros-list">
+        <!-- Aqui será carregada a lista de carros -->
+    </div>
+
+    <h2>Criar Novo Carro</h2>
+    <form id="add-carro-form">
+        <input type="text" id="nome" placeholder="Nome do Carro" required>
+        <input type="text" id="modelo" placeholder="Modelo do Carro" required>
+        <input type="number" id="ano" placeholder="Ano do Carro" required>
+        <input type="number" id="preco" placeholder="Preço do Carro" required>
+        <button type="submit">Adicionar Carro</button>
+    </form>
+
+    <script src="/carro/carros.js"></script>
+</body>
+</html>
